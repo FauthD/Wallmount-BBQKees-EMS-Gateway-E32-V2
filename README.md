@@ -85,3 +85,5 @@ For openscad stable, locate the two lines with "OPENSCAD ?=" and comment/uncomme
 	- https://github.com/FauthD/Wallmount-BBQKees-EMS-Gateway-E32-V2
     - pysubwcrev is a cross-platform version of subwcrev
 
+# Thingiverse
+https://www.thingiverse.com/thing:7359844
