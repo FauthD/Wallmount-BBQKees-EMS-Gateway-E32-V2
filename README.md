@@ -5,14 +5,10 @@ In my case this is a Buderus Logatherm WLW186i AR.
 Written in openscad.
 
 # Customizer
-The customizer can be used to create new flavours.
-
-## Warning
-There might be combinations of parameters that do not fit together. Your are responsible to check the sizes for your needs.
+The openscad customizer can be used to create new flavours, though probably hardly used by this project.
 
 # Printing
 I printed with PLA, 20% infill.
-
 
 # Source files
 
@@ -26,9 +22,24 @@ I printed with PLA, 20% infill.
 - Makefile
     The control file for make (I use gmake on Linux, others not tested).
 
+# Flavours
+
+| Using heat inserts and M3 screws (recommended) | Using selftab M3 screws (also good choice) | printed pins (less robust)|
+| :----: | :----: | :----: |
+| <img src="PNG/UseHeatInserts.png" width="60%" height="60%"> | <img src="PNG/UseSelfTabScrews.png" width="60%" height="60%"> | <img src="PNG/UsePins.png" width="60%" height="60%">  |
+| Heat inserts M3x4, screws M3*6 with countersunk head | Selftab screws M3*6 with countersunk head (Din7500 or manual tab ) | No metal parts required |
+
+Find the corresponding .stl files in the STL directory.
+
+# Some real pictures
+
+<img src="assets/20260526_120240.jpg" width="40%" height="40%">
+<img src="assets/20260526_120617.jpg" width="40%" height="40%">
+
  # Rebuild
     Unzip the dfLibscad_xx.zip (xx==Revision. It is a .txt file on Thingiverse since it does not accept .zip) into the same directory that contains the scad and Makefile.
     You should get a new subdir named dfLibscad.
+	On Github this above step is not required since the repo contains the directory.
 
     On Linux open a shell in the source directory, then type make and wait.
     The png and stl files will get created in subdirs. This takes a while, so be patient.
