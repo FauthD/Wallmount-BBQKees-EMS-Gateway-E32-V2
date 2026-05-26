@@ -1,0 +1,13 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "UseHeatInserts": {
+            "ScrewDiameter": "0",
+            "PinUse": "false"
+        },
+        "UsePins": {
+            "ScrewDiameter": "0",
+            "PinUse": "true"
+        }
+    }
+}
