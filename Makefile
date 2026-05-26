@@ -25,7 +25,7 @@ OPENSCAD ?= openscad-nightly
 
 SHOW_MODULES=-D "ShowModules=1"
 IMAGE_SIZE=--imgsize 1024,1024 --viewall
-CAMERA=--camera=0,0,0,45,0,130,500
+CAMERA=--camera=0,0,0,65,05,20,500
 AUTOCENTER=--autocenter
 VIEW=--view axes
 
